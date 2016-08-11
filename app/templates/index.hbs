@@ -1,0 +1,14 @@
+
+<h2 class="text-center">Upcoming 2016 Schedule</h2>
+<hr>
+
+	{{#list-filter
+		filter=(action 'filterByLocation') as |tournaments|}}
+		<div class="results">
+		{{#each tournaments as |tournamentUnit|}}
+		{{tournament-listing tournament=tournamentUnit}}
+		{{/each}}
+		</div>
+	{{/list-filter}}
+
+

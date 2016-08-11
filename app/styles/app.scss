@@ -1,0 +1,82 @@
+@import "bootstrap";
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: #6FA0DF;
+  padding-top: 20px;
+}
+
+body {
+	padding-top: 10px;
+	background-color: #C0C0C0;
+	/* Margin bottom by footer height */
+  	margin-bottom: 60px;
+}
+
+.clients {
+	/*padding-top: 25px;*/
+	position: relative;
+	background-color: #ffffff;
+	height: auto;
+}
+
+aside.clients img {
+	margin:50px auto;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 30;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: auto;
+
+  /*background-color: #777;*/
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.panel > .panel-heading {
+	background-color: #B0C4DE;
+}
+
